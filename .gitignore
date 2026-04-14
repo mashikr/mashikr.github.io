@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Sass
+.sass-cache/
+*.css.map
+
+# Logs & debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# IDE / editor (optional — remove lines if you want to commit shared settings)
+.idea/
+*.swp
+*.swo
+*~
+
+# Optional local tooling
+.prepros-cache/
