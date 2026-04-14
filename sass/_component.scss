@@ -1,3 +1,6 @@
+@use "breakpoints" as *;
+@use "base" as base;
+
 ///// nav section /////
 .navbar {
     background-color: var(--success);
@@ -80,7 +83,7 @@
         }
     
         &-text {
-            text-align: justify;
+            @include base.justified-prose;
             font-size: 1.2rem;
             margin: 0 1rem;
         }
@@ -88,7 +91,7 @@
 
     &-social {
         display: grid;
-        grid-template-columns: repeat(4, min-content);
+        grid-template-columns: repeat(5, min-content);
         justify-content: center;
 
         &-icon {
@@ -231,6 +234,7 @@
     
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 5rem;
     
     @media only screen and (max-width: $bp-largest) {
         border-radius: 0;
@@ -256,7 +260,7 @@
 
         p {
             margin: .5rem 0;
-            text-align: justify;
+            @include base.justified-prose;
             font-size: 1.4rem;
             a {
                 text-decoration: none;
@@ -270,8 +274,7 @@
     }
 
     &-img {
-        margin-left: 5rem;
-        background-image: url(../img/myimg-2.jpg);
+        background-image: url(../img/ashik-2.JPG);
         background-size: cover;
         background-position: center;
 
@@ -367,7 +370,7 @@
 .post {
     
     &-img {
-        height: 4rem;
+        height: 6rem;
     }
 
     &-title {
@@ -376,7 +379,7 @@
 
     &-text {
         font-size: 1.4rem;
-        text-align: justify;
+        @include base.justified-prose;
     }
 }
 

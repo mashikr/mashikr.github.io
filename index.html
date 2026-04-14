@@ -6,8 +6,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="img/icon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/style.min.css">
-    <title>Ashik</title>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Md Ashikur Rahman | Portfolio</title>
 </head>
 <body>
 
@@ -16,25 +16,29 @@
             <div class="close"><span id="close-icon">&times;</span></div>
             <div class="navbar_brand">
                 <div class="navbar_brand-title">Md Ashikur Rahman</div>
-                <img src="img/mypic2.PNG" alt="Ashik" class="navbar_brand-img">
-                <p class="navbar_brand-text">Hi, I'm Ashik. i'm a Software Engineer. Welcome to my personal website!</p>
+                <img src="img/ashik2.png" alt="Ashik" class="navbar_brand-img">
+                <p class="navbar_brand-text">Full Stack Software Engineer with research experience in machine learning, cybersecurity, and data analytics. I build reliable web applications and mentor future developers.</p>
             </div>
             <div class="navbar-social">
-                <div class="navbar-social-icon" title="facebook"><i class="fab fa-facebook-f"></i></div>
-                <div class="navbar-social-icon" title="linkdin"><i class="fab fa-linkedin-in"></i></div>
-                <div class="navbar-social-icon" title="github"><i class="fab fa-github"></i></div>
-                <div class="navbar-social-icon" title="instagram"><i class="fab fa-instagram"></i></div>
+                <a href="https://www.linkedin.com/in/mashikr" class="navbar-social-icon" title="LinkedIn" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/mashikr" class="navbar-social-icon" title="GitHub" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/Ashik29677320" class="navbar-social-icon" title="X" target="_blank" rel="noopener noreferrer"><i class="fab fa-twitter"></i></a>
+                <a href="mailto:mdashikur567@gmail.com" class="navbar-social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+                <a href="https://www.facebook.com/mohammadashikurrahman.sujon" class="navbar-social-icon" title="Facebook"><i class="fab fa-facebook"></i></a>
             </div>
 
             <hr>
 
             <ul class="navbar-list">
-                <li class="navbar-item"><a href="#" class="navbar-link navbar-link-active"><i class="fas fa-user"></i> <span>About Me</span></a></li>
-                <li class="navbar-item"><a href="#" class="navbar-link"><i class="fas fa-laptop-code"></i> <span>Portfolio</span></a></li>
-                <li class="navbar-item"><a href="#" class="navbar-link"><i class="fas fa-briefcase"></i> <span>Service & Pricing</span></a></li>
-                <li class="navbar-item"><a href="#" class="navbar-link"><i class="fas fa-file-alt"></i> <span>Resume</span></a></li>
-                <li class="navbar-item"><a href="#" class="navbar-link"><i class="fas fa-blog"></i> <span>Blog</span></a></li>
-                <li class="navbar-item"><a href="#" class="navbar-link"><i class="fas fa-address-book"></i> <span>Contact</span></a></li>
+                <li class="navbar-item"><a href="#about" class="navbar-link navbar-link-active"><i class="fas fa-user"></i> <span>About Me</span></a></li>
+                <li class="navbar-item"><a href="#skills" class="navbar-link"><i class="fas fa-laptop-code"></i> <span>Skills</span></a></li>
+                <li class="navbar-item"><a href="#experience" class="navbar-link"><i class="fas fa-briefcase"></i> <span>Experience</span></a></li>
+                <li class="navbar-item"><a href="#projects" class="navbar-link"><i class="fas fa-project-diagram"></i> <span>Projects</span></a></li>
+                <li class="navbar-item"><a href="#education" class="navbar-link"><i class="fas fa-university"></i> <span>Education</span></a></li>
+                <li class="navbar-item"><a href="#publications" class="navbar-link"><i class="fas fa-book-open"></i> <span>Publications</span></a></li>
+                <li class="navbar-item"><a href="#honors" class="navbar-link"><i class="fas fa-award"></i> <span>Honors & Awards</span></a></li>
+                <li class="navbar-item"><a href="#resume" class="navbar-link"><i class="fas fa-file-alt"></i> <span>Resume</span></a></li>
+                <li class="navbar-item"><a href="#contact" class="navbar-link"><i class="fas fa-address-book"></i> <span>Contact</span></a></li>
             </ul>
 
             <hr>
@@ -52,77 +56,423 @@
         <div class="navbar-toggle"> <button id="toggler"><i class="fas fa-bars"></i></button></div>
 
         <main class="main-content">
-            <div class="header">
+            <div class="header" id="profile-header">
                 <div class="header-content">
                     <h2>Md Ashikur Rahman</h2>
-                    <span>Software Engineer</span>
-                    <p>I'm a software engineer specialist in frontend and backend development for web apps. I write about software development on <a href="#" title="Blog">my blog</a>. Want to know how I may help your project? Check out my project <a href="#" title="Portfolio">portfolio</a> and <a href="#" title="Resume">online resume</a></p>
+                    <span>Full Stack Software Engineer | Academic Researcher</span>
+                    <p>I am a software engineer with 2+ years of professional experience building scalable applications with PHP, Laravel, Vue.js, and MySQL. Alongside industry work, I hold an M.Sc. in CSTE and published research on malware detection and feature selection. I enjoy solving real-world software challenges and contributing to teaching and mentorship.</p>
 
                     <div class="header-link">
-                        <a href="#" class="header-link-port" title="Portfolio"><i class="fas fa-arrow-circle-right"></i> View Portfolio</a>
-                        <a href="#" class="header-link-res" title="Resume"><i class="fas fa-file-alt"></i> <span>View Resume</span></a>
+                        <a href="#projects" class="header-link-port tab-trigger" title="Projects"><i class="fas fa-arrow-circle-right"></i> View Projects</a>
+                        <a href="doc/MdAshikurRahmanResume%20%28Software%20Engineer%29.pdf" class="header-link-res" title="Software Engineer Resume" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-alt"></i> <span>View Resume</span></a>
                     </div>
                 </div>
                 <div class="header-img">
                     <!-- <img src="img/myimg-2.jpg" alt="Ashik"> -->
                 </div>
             </div>
-            <div class="content">
+            <div class="content tab-panel" id="about">
                 <div class="content-title">
-                    <h2>What I do</h2>
-                    <p>I have more than 3 year's experience building software for clientes all over the world. Below is a quick overview of my main technical skill sets and technologies I use. Want to find out more about my experience? Check out my <a href="#" title="Resume">online resume</a> and <a href="#" title="Project">project portfolio</a></p>
+                    <h2>About Me</h2>
+                    <p>I am Md Ashikur Rahman, a Full Stack Software Engineer with industry and academic experience. My work covers scalable web development, software quality improvement, research-driven problem solving, and technical mentoring.</p>
                 </div>
 
                 <div class="content-body">
-
                     <div class="post">
-                        <img src="img/js.png" alt="JavaScript" class="post-img">
-                        <h4 class="post-title">JavaScript</h4>
-                        <p class="post-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos repellat rerum magnam laudantium soluta. Recusandae, tempore! In, eligendi nesciunt necessitatibus voluptates dolore ipsa obcaecati amet sed impedit enim veniam adipisci.</p>
+                        <img src="img/professional-profile-logo.png" alt="Professional profile" class="post-img">
+                        <h4 class="post-title">Professional Profile</h4>
+                        <p class="post-text">2+ years of experience in building and maintaining full-stack applications with Laravel, Vue.js, and MySQL across product and service-oriented environments.</p>
                     </div>
 
                     <div class="post">
-                        <img src="img/nodejs.png" alt="Node.js" class="post-img">
-                        <h4 class="post-title">Node.js</h4>
-                        <p class="post-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos repellat rerum magnam laudantium soluta. Recusandae, tempore! In, eligendi nesciunt necessitatibus voluptates dolore ipsa obcaecati amet sed impedit enim veniam adipisci.</p>
+                        <img src="img/academic-background-logo.png" alt="Academic background" class="post-img">
+                        <h4 class="post-title">Academic Background</h4>
+                        <p class="post-text">M.Sc. and B.Sc. in Computer Science and Telecommunication Engineering from NSTU with research focus on malware detection, feature selection, and PCA-based analysis.</p>
                     </div>
 
                     <div class="post">
-                        <img src="img/php.png" alt="PHP" class="post-img">
-                        <h4 class="post-title">PHP</h4>
-                        <p class="post-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos repellat rerum magnam laudantium soluta. Recusandae, tempore! In, eligendi nesciunt necessitatibus voluptates dolore ipsa obcaecati amet sed impedit enim veniam adipisci.</p>
+                        <img src="img/what-i-offer-logo.png" alt="What I offer" class="post-img">
+                        <h4 class="post-title">What I Offer</h4>
+                        <p class="post-text">End-to-end web solution delivery, backend architecture support, frontend implementation, database optimization, and practical training for students and junior developers.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="content tab-panel" id="skills">
+                <div class="content-title">
+                    <h2>Skills & Expertise</h2>
+                    <p>My work combines production-grade software engineering with an academic foundation in machine learning, analytics, and cybersecurity. I can support full-stack delivery, system improvement, and technical mentoring.</p>
+                </div>
+
+                <div class="content-body">
+                    <div class="post">
+                        <img src="img/skill-frontend-engineering.png" alt="Frontend engineering" class="post-img">
+                        <h4 class="post-title">Frontend Engineering</h4>
+                        <p class="post-text">Build responsive and user-focused interfaces for modern web applications.</p>
+                        <ul class="skill-tags" aria-label="Frontend engineering skills">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>SASS</li>
+                            <li>JavaScript</li>
+                            <li>Vue.js</li>
+                            <li>Vuetify</li>
+                            <li>Bootstrap</li>
+                            <li>Tailwind</li>
+                        </ul>
                     </div>
 
                     <div class="post">
-                        <img src="img/bootstrap.png" alt="bootstrap" class="post-img">
-                        <h4 class="post-title">Bootstrap</h4>
-                        <p class="post-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos repellat rerum magnam laudantium soluta. Recusandae, tempore! In, eligendi nesciunt necessitatibus voluptates dolore ipsa obcaecati amet sed impedit enim veniam adipisci.</p>
+                        <img src="img/skill-backend-development.png" alt="Backend development" class="post-img">
+                        <h4 class="post-title">Backend Development</h4>
+                        <p class="post-text">Develop secure and maintainable backend systems with clean architecture and APIs.</p>
+                        <ul class="skill-tags" aria-label="Backend development skills">
+                            <li>PHP</li>
+                            <li>Laravel</li>
+                            <li>REST API</li>
+                            <li>Business Logic</li>
+                            <li>Debugging</li>
+                            <li>Performance Tuning</li>
+                        </ul>
                     </div>
 
                     <div class="post">
-                        <img src="img/npm.png" alt="npm" class="post-img">
-                        <h4 class="post-title">npm</h4>
-                        <p class="post-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos repellat rerum magnam laudantium soluta. Recusandae, tempore! In, eligendi nesciunt necessitatibus voluptates dolore ipsa obcaecati amet sed impedit enim veniam adipisci.</p>
+                        <img src="img/skill-database-systems.png" alt="Database systems" class="post-img">
+                        <h4 class="post-title">Database Systems</h4>
+                        <p class="post-text">Design, optimize, and maintain relational databases for scalable applications.</p>
+                        <ul class="skill-tags" aria-label="Database systems skills">
+                            <li>MySQL</li>
+                            <li>Oracle (PL/SQL)</li>
+                            <li>Normalization</li>
+                            <li>Joins</li>
+                            <li>Indexing</li>
+                            <li>Query Optimization</li>
+                        </ul>
                     </div>
 
                     <div class="post">
-                        <img src="img/sass.png" alt="sass" class="post-img">
-                        <h4 class="post-title">SASS/SCSS</h4>
-                        <p class="post-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos repellat rerum magnam laudantium soluta. Recusandae, tempore! In, eligendi nesciunt necessitatibus voluptates dolore ipsa obcaecati amet sed impedit enim veniam adipisci.</p>
+                        <img src="img/skill-academic-research.png" alt="Academic research" class="post-img">
+                        <h4 class="post-title">Academic Research</h4>
+                        <p class="post-text">Conduct and publish research with practical analytical and experimental workflows.</p>
+                        <ul class="skill-tags" aria-label="Academic research skills">
+                            <li>Machine Learning</li>
+                            <li>Feature Selection</li>
+                            <li>Cybersecurity</li>
+                            <li>PCA</li>
+                            <li>Statistical Modeling</li>
+                            <li>Data Analysis</li>
+                        </ul>
                     </div>
 
                     <div class="post">
-                        <img src="img/css.png" alt="css" class="post-img">
-                        <h4 class="post-title">CSS</h4>
-                        <p class="post-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos repellat rerum magnam laudantium soluta. Recusandae, tempore! In, eligendi nesciunt necessitatibus voluptates dolore ipsa obcaecati amet sed impedit enim veniam adipisci.</p>
+                        <img src="img/skill-teaching-mentoring.png" alt="Teaching and mentoring" class="post-img">
+                        <h4 class="post-title">Teaching & Mentoring</h4>
+                        <p class="post-text">Deliver structured technical training with practical mentoring and evaluation.</p>
+                        <ul class="skill-tags" aria-label="Teaching and mentoring skills">
+                            <li>Web Training</li>
+                            <li>Laravel Training</li>
+                            <li>MySQL Training</li>
+                            <li>Mentoring</li>
+                            <li>Assessment Design</li>
+                            <li>Project Guidance</li>
+                        </ul>
                     </div>
 
                     <div class="post">
-                        <img src="img/html.png" alt="html" class="post-img">
-                        <h4 class="post-title">HTML</h4>
-                        <p class="post-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dignissimos repellat rerum magnam laudantium soluta. Recusandae, tempore! In, eligendi nesciunt necessitatibus voluptates dolore ipsa obcaecati amet sed impedit enim veniam adipisci.</p>
+                        <img src="img/skill-technical-toolkit.png" alt="Technical toolkit" class="post-img">
+                        <h4 class="post-title">Technical Toolkit</h4>
+                        <p class="post-text">Use a practical cross-domain toolkit for development, research, and delivery.</p>
+                        <ul class="skill-tags" aria-label="Technical toolkit skills">
+                            <li>Git</li>
+                            <li>Zoho CRM</li>
+                            <li>Python</li>
+                            <li>MATLAB</li>
+                            <li>R Studio</li>
+                            <li>VS Code</li>
+                        </ul>
                     </div>
 
+                </div>
+            </div>
+
+            <div class="content tab-panel" id="experience">
+                <div class="content-title">
+                    <h2>Professional Experience</h2>
+                    <p>I have worked on real-world systems across education and enterprise use-cases, focusing on scalable backend architecture and reliable frontend delivery.</p>
+                </div>
+                <div class="content-body experience-listing">
+                    <article class="experience-card">
+                        <img src="img/gigalogy.png" alt="Gigalogy" class="experience-card__logo experience-card__logo--brand">
+                        <h4 class="post-title">Software Engineer &mdash; <a href="https://gigalogy.com/" target="_blank" rel="noopener noreferrer">Gigalogy</a></h4>
+                        <p class="post-date">Jun 2024 &ndash; Present</p>
+                        <p class="post-text">Develop and maintain scalable web applications with PHP (Laravel), Vue.js, and Vuetify. Improve maintainability through modular architecture and close collaboration.</p>
+                    </article>
+                    <article class="experience-card">
+                        <img src="img/Softanis.png" alt="Softanis" class="experience-card__logo experience-card__logo--brand experience-card__logo--compact">
+                        <h4 class="post-title">Software Engineer &mdash; <a href="https://softanis.com/" target="_blank" rel="noopener noreferrer">Softanis</a></h4>
+                        <p class="post-date">Aug 2023 &ndash; May 2024</p>
+                        <p class="post-text">Built and maintained Laravel applications, supported WordPress tasks, and worked with Zoho CRM data workflows to improve operational efficiency.</p>
+                    </article>
+                    <article class="experience-card">
+                        <img src="img/experience-edge-nstu.png" alt="EDGE NSTU IIT" class="experience-card__logo">
+                        <h4 class="post-title">Industry Trainer &mdash; <a href="https://www.nstu.edu.bd/department.php?name=department-of-software-engineering" target="_blank" rel="noopener noreferrer">EDGE &ndash; NSTU IIT</a></h4>
+                        <p class="post-date">Jun 2024 &ndash; Mar 2025</p>
+                        <p class="post-text">Delivered hands-on training on HTML, CSS, Bootstrap, JavaScript, PHP, Laravel, and MySQL. Mentored batches of 25+ trainees with assignments, quizzes, and full-stack projects.</p>
+                    </article>
+                </div>
+            </div>
+
+            <div class="content tab-panel" id="projects">
+                <div class="content-title">
+                    <h2>Selected Projects</h2>
+                    <p>A portfolio of full-stack project delivery across university-scale admission systems, public-sector training platforms, and production web solutions for organizations and communities.</p>
+                </div>
+                <div class="content-body project-listing">
+                    <article class="project-card">
+                        <div class="project-card__header">
+                            <img src="img/project-nstu-admission.png" alt="" class="post-img project-card__icon" width="64" height="64">
+                            <div class="project-card__title-block">
+                                <h4 class="post-title project-card__title">NSTU Admission System</h4>
+                                <p class="project-card__subtitle">Online registration, results, payments, and notifications for multiple admission cycles.</p>
+                            </div>
+                        </div>
+                        <dl class="project-meta">
+                            <div class="project-meta__row">
+                                <dt>Role</dt>
+                                <dd>Full Stack Web Developer</dd>
+                            </div>
+                            <div class="project-meta__row">
+                                <dt>Institute</dt>
+                                <dd><a href="https://www.nstu.edu.bd/" target="_blank" rel="noopener noreferrer">Noakhali Science and Technology University (NSTU)</a></dd>
+                            </div>
+                            <div class="project-meta__row">
+                                <dt>Timeline</dt>
+                                <dd>Nov 2021 &ndash; Nov 2023 <span class="project-meta__note">(multiple phases; sessions 2020&ndash;21, 2021&ndash;22, 2022&ndash;23)</span></dd>
+                            </div>
+                            <div class="project-meta__row">
+                                <dt>URL</dt>
+                                <dd class="project-meta__muted"><a href="https://admission.nstu.edu.bd/" target="_blank" rel="noopener noreferrer">admission.nstu.edu.bd</a></dd>
+                            </div>
+                        </dl>
+                        <p class="project-tech-label">Tech stack</p>
+                        <ul class="project-tech" aria-label="Tech stack">
+                            <li>Laravel</li>
+                            <li>jQuery</li>
+                            <li>Bootstrap</li>
+                            <li>MySQL</li>
+                        </ul>
+                        <ul class="project-details">
+                            <li>Built a full-featured admission flow: online registration, payment, result creation, migration, and notifications for applicants.</li>
+                            <li>Supported several admission sessions across overlapping development phases.</li>
+                            <li>Handled large-scale student data with a focus on reliability and operational stability during peak periods.</li>
+                        </ul>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-card__header">
+                            <img src="img/project-police-training.png" alt="" class="post-img project-card__icon" width="64" height="64">
+                            <div class="project-card__title-block">
+                                <h4 class="post-title project-card__title">Online Training Module &mdash; Bangladesh Police</h4>
+                                <p class="project-card__subtitle">Course-based training with surveys, quizzes, and certificates, integrated with police systems.</p>
+                            </div>
+                        </div>
+                        <dl class="project-meta">
+                            <div class="project-meta__row">
+                                <dt>Role</dt>
+                                <dd>Full Stack Developer</dd>
+                            </div>
+                            <div class="project-meta__row">
+                                <dt>Organization</dt>
+                                <dd>Bangladesh Police <span class="project-meta__note">(integrated with BD Police PIMS)</span></dd>
+                            </div>
+                            <div class="project-meta__row">
+                                <dt>Timeline</dt>
+                                <dd>Oct 2022 &ndash; Nov 2022</dd>
+                            </div>
+                            <div class="project-meta__row">
+                                <dt>URL</dt>
+                                <dd><a href="https://gender-response.police.gov.bd" target="_blank" rel="noopener noreferrer">gender-response.police.gov.bd</a></dd>
+                            </div>
+                        </dl>
+                        <p class="project-tech-label">Tech stack</p>
+                        <ul class="project-tech" aria-label="Tech stack">
+                            <li>PHP</li>
+                            <li>jQuery</li>
+                            <li>Bootstrap</li>
+                            <li>MySQL</li>
+                        </ul>
+                        <ul class="project-details">
+                            <li>Delivered chapter-by-chapter online courses with login, multiple courses, surveys, and quiz submission.</li>
+                            <li>Integrated the application with the Bangladesh Police PIMS for aligned user and process workflows.</li>
+                            <li>Implemented completion and certification flows so trainees could finish programs with verifiable outcomes.</li>
+                        </ul>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-card__header">
+                            <img src="img/project-web-portfolio.png" alt="" class="post-img project-card__icon" width="64" height="64">
+                            <div class="project-card__title-block">
+                                <h4 class="post-title project-card__title">Other Web Development Projects</h4>
+                                <p class="project-card__subtitle">Organization and community sites built with deployment-focused, maintainable stacks.</p>
+                            </div>
+                        </div>
+                        <dl class="project-meta">
+                            <div class="project-meta__row">
+                                <dt>Role</dt>
+                                <dd>Web Developer (full stack / site delivery)</dd>
+                            </div>
+                            <div class="project-meta__row">
+                                <dt>Context</dt>
+                                <dd>Various clients &amp; communities <span class="project-meta__note">(2021&ndash;2023)</span></dd>
+                            </div>
+                        </dl>
+                        <p class="project-tech-label">Typical stack</p>
+                        <ul class="project-tech" aria-label="Typical stack">
+                            <li>PHP</li>
+                            <li>Laravel</li>
+                            <li>MySQL</li>
+                            <li>HTML / CSS / JS</li>
+                            <li>Bootstrap</li>
+                        </ul>
+                        <ul class="project-details project-details--deliverables">
+                            <li>
+                                <span class="project-details__name">TGA BD Organization Website</span>
+                                <span class="project-details__url" aria-label="Project URL"><a href="https://tgabd.org" target="_blank" rel="noopener noreferrer">tgabd.org</a></span>
+                            </li>
+                            <li>
+                                <span class="project-details__name">Online Voting System</span>
+                                <span class="project-details__url" aria-label="Project URL"><a href="https://evote.sererl.com" target="_blank" rel="noopener noreferrer">evote.sererl.com</a></span>
+                            </li>
+                            <li>
+                                <span class="project-details__name">0608 Batch Community Platform</span>
+                                <span class="project-details__url" aria-label="Project URL"><a href="https://0608.foundation" target="_blank" rel="noopener noreferrer">0608.foundation</a></span>
+                            </li>
+                            <li>
+                                <span class="project-details__name">Medical Department Website</span>
+                                <span class="project-details__url" aria-label="Project URL"><a href="http://ibrahimneurosurgery.org" target="_blank" rel="noopener noreferrer">ibrahimneurosurgery.org</a></span>
+                            </li>
+                            <li>
+                                <span class="project-details__name">Social Welfare Organization Website</span>
+                                <span class="project-details__url" aria-label="Project URL"><a href="http://afadbd.org/" target="_blank" rel="noopener noreferrer">afadbd.org</a></span>
+                            </li>
+                        </ul>
+                    </article>
+                </div>
+            </div>
+
+            <div class="content tab-panel" id="education">
+                <div class="content-title">
+                    <h2>Education</h2>
+                    <p>Comprehensive academic profile including degree progression, thesis work, research focus, academic performance, and extracurricular contributions.</p>
+                </div>
+                <div class="content-body">
+                    <article class="academic-card">
+                        <img src="img/nstu-logo.png" alt="NSTU logo" class="academic-card__logo">
+                        <div class="academic-card__header">
+                            <h4 class="post-title">Master of Science in Computer Science and Telecommunication Engineering</h4>
+                        </div>
+                        <p class="academic-meta"><strong>Institution:</strong> <a href="https://nstu.edu.bd" target="_blank" rel="noopener noreferrer">Noakhali Science and Technology University</a>, Sonapur, Noakhali</p>
+                        <p class="academic-meta"><strong>Duration:</strong> Aug 2022 &ndash; Mar 2024</p>
+                        <p class="academic-meta"><strong>CGPA:</strong> 3.85 / 4.00</p>
+                        <p class="academic-meta"><strong>Thesis:</strong> <a href="doc/ashik-thesis-msc.pdf" target="_blank" rel="noopener noreferrer">Analyzing the Effect of COVID-19 and Russia-Ukraine War on Energy Companies: A PCA-Based Study</a> <span class="academic-meta__file">(PDF)</span></p>
+                        <p class="academic-meta"><strong>Research Areas:</strong> Principal Component Analysis (PCA), Statistical Modeling, Data Analysis</p>
+                        <p class="academic-meta"><strong>Activities:</strong> NSTU Software Development Team (as Web Developer)</p>
+                    </article>
+
+                    <article class="academic-card">
+                        <img src="img/nstu-logo.png" alt="NSTU logo" class="academic-card__logo">
+                        <div class="academic-card__header">
+                            <h4 class="post-title">Bachelor of Science in Computer Science and Telecommunication Engineering</h4>
+                        </div>
+                        <p class="academic-meta"><strong>Institution:</strong> <a href="https://nstu.edu.bd" target="_blank" rel="noopener noreferrer">Noakhali Science and Technology University</a>, Sonapur, Noakhali</p>
+                        <p class="academic-meta"><strong>Duration:</strong> Jan 2017 &ndash; Mar 2022</p>
+                        <p class="academic-meta"><strong>CGPA:</strong> 3.57 / 4.00</p>
+                        <p class="academic-meta"><strong>Thesis:</strong> <a href="doc/ashik-thesis-bsc.pdf" target="_blank" rel="noopener noreferrer">An Exploratory Analysis of Feature Selection for Malware Detection with Simple Machine Learning Algorithms</a> <span class="academic-meta__file">(PDF)</span></p>
+                        <p class="academic-meta"><strong>Research Areas:</strong> Machine Learning, Feature Selection, Cybersecurity</p>
+                        <p class="academic-meta"><strong>Activities:</strong> NSTU Software Development Team (Web Dev), CSTE Club (Joint Secretary)</p>
+                    </article>
+
+                    <article class="academic-card">
+                        <img src="img/gsc-logo.png" alt="Government Science College logo" class="academic-card__logo">
+                        <div class="academic-card__header">
+                            <h4 class="post-title">Higher Secondary Certificate (Science)</h4>
+                        </div>
+                        <p class="academic-meta"><strong>Institution:</strong> <a href="https://www.gsctd.edu.bd/" target="_blank" rel="noopener noreferrer">Government Science College</a>, Teajgoan, Dhaka</p>
+                        <p class="academic-meta"><strong>Duration:</strong> 2014 &ndash; 2016</p>
+                        <p class="academic-meta"><strong>GPA:</strong> 5.00 / 5.00</p>
+                    </article>
+
+                    <article class="academic-card">
+                        <img src="img/ahs-logo.png" alt="Ashirpar High School logo" class="academic-card__logo">
+                        <div class="academic-card__header">
+                            <h4 class="post-title">Secondary School Certificate (Science)</h4>
+                        </div>
+                        <p class="academic-meta"><strong>Institution:</strong> <a href="https://www.sohopathi.com/ashirpar-high-school/" target="_blank" rel="noopener noreferrer">Ashirpar High School</a>, Monohorgonj, Cumilla</p>
+                        <p class="academic-meta"><strong>Duration:</strong> 2012 &ndash; 2014</p>
+                        <p class="academic-meta"><strong>GPA:</strong> 5.00 / 5.00</p>
+                    </article>
+                </div>
+            </div>
+
+            <div class="content tab-panel" id="publications">
+                <div class="content-title">
+                    <h2>Publications</h2>
+                    <p>Peer-reviewed research publication reflecting my work in machine learning, feature selection, and cybersecurity-focused analytics.</p>
+                </div>
+                <div class="content-body">
+                    <article class="academic-card">
+                        <h4 class="post-title">An Exploratory Analysis of Feature Selection for Malware Detection with Simple Machine Learning Algorithms</h4>
+                        <p class="academic-meta"><strong>Authors:</strong> <strong><i>Md Ashikur Rahman</i></strong>, Syful Islam, Yusuf Sulistyo Nugroho, Fatah Yasin Al Irsyadi, Md Javed Hossain</p>
+                        <p class="academic-meta"><strong>Journal:</strong> Journal of Communications Software and Systems (JCOMSS), Vol. 19, No. 3, pp. 207-219, September 2023</p>
+                        <p class="academic-meta"><strong>DOI:</strong> <a href="https://doi.org/10.24138/jcomss-2023-0091" target="_blank" rel="noopener noreferrer">10.24138/jcomss-2023-0091</a></p>
+                        <p class="academic-meta"><strong>Publication URL:</strong> <a href="https://jcoms.fesb.unist.hr/10.24138/jcomss-2023-0091/" target="_blank" rel="noopener noreferrer">jcoms.fesb.unist.hr/10.24138/jcomss-2023-0091</a></p>
+                    </article>
+                </div>
+            </div>
+
+            <div class="content tab-panel" id="honors">
+                <div class="content-title">
+                    <h2>Academic Honors & Awards</h2>
+                    <p>Scholarships and recognitions from school to postgraduate level.</p>
+                </div>
+                <div class="content-body">
+                    <article class="academic-card">
+                        <h4 class="post-title">National Science and Technology (NST) Fellowship - 2023</h4>
+                        <p class="academic-meta">Awarding body: Ministry of Science and Technology, Bangladesh</p>
+                        <p class="academic-meta">Recognition: Competitive national research grant awarded for postgraduate thesis research.</p>
+                    </article>
+
+                    <article class="academic-card">
+                        <h4 class="post-title">JSC Scholarship (Class 8)</h4>
+                        <p class="academic-meta">Awarded for outstanding results in the Junior School Certificate examination.</p>
+                    </article>
+
+                    <article class="academic-card">
+                        <h4 class="post-title">PSC Scholarship (Class 5)</h4>
+                        <p class="academic-meta">Awarded for strong academic performance in the Primary School Certificate examination.</p>
+                    </article>
+                </div>
+            </div>
+
+            <div class="content tab-panel" id="resume">
+                <div class="content-title">
+                    <h2>Resume & Academic Profile</h2>
+                    <p>Download my professional profile based on your requirements. I keep two software engineering resume formats plus a separate academic CV.</p>
+                </div>
+                <div class="header-link header-link--resume">
+                    <a href="doc/MdAshikurRahmanResume%20%28Software%20Engineer%29.pdf" class="header-link-port" title="Software Engineer resume (Resume_MD_Ashikur_Rahman)" target="_blank" rel="noopener noreferrer"><i class="fas fa-download"></i> Software Engineer CV</a>
+                    <a href="doc/Resume_MD_Ashikur_Rahman%20(Software%20Engineer).pdf" class="header-link-res" title="Software Engineer resume (MdAshikurRahmanResume)" target="_blank" rel="noopener noreferrer"><i class="fas fa-download"></i> Software Engineer CV (alternate)</a>
+                    <a href="doc/Resume%20Md%20Ashikur%20Rahman%20(Academic).pdf" class="header-link-port" title="Academic Resume" target="_blank" rel="noopener noreferrer"><i class="fas fa-graduation-cap"></i> Academic CV</a>
+                </div>
+            </div>
+
+            <div class="content tab-panel" id="contact">
+                <div class="content-title">
+                    <h2>Contact</h2>
+                    <p>Email: <a href="mailto:mdashikur567@gmail.com">mdashikur567@gmail.com</a></p>
+                    <p>Phone / WhatsApp: <a href="tel:+8801712327242">+8801712327242</a> | <a href="https://wa.me/8801712327242" target="_blank" rel="noopener noreferrer">Chat on WhatsApp</a></p>
+                    <p>Location: Dhaka, Bangladesh</p>
+                    <p>Social: <a href="https://www.linkedin.com/in/mashikr" target="_blank" rel="noopener noreferrer">LinkedIn</a> | <a href="https://github.com/mashikr" target="_blank" rel="noopener noreferrer">GitHub</a> | <a href="https://x.com/Ashik29677320" target="_blank" rel="noopener noreferrer">X</a> | <a href="https://www.facebook.com/mohammadashikurrahman.sujon" target="_blank" rel="noopener noreferrer">Facebook</a></p>
+                    <p>Open to full-stack software roles, research collaboration, and teaching opportunities.</p>
                 </div>
             </div>
         </main>
@@ -142,17 +492,92 @@
            }
         });
 
+        var navbar = document.querySelector('.navbar');
         var toggler = document.getElementById('toggler');
-        toggler.addEventListener('click', function() {
-            var navbar = document.getElementsByClassName('navbar')[0];
-            navbar.style.left = '0';
+        var navbarToggleBar = document.querySelector('.navbar-toggle');
+
+        function isMobileNavLayout() {
+            return window.matchMedia('(max-width: 43.75em)').matches;
+        }
+
+        function closeNavbar() {
+            if (navbar) {
+                navbar.style.left = '-28rem';
+            }
+        }
+
+        toggler.addEventListener('click', function(e) {
+            e.stopPropagation();
+            if (navbar) {
+                navbar.style.left = '0';
+            }
+        });
+
+        document.addEventListener('click', function(e) {
+            if (!isMobileNavLayout() || !navbar) {
+                return;
+            }
+            if (navbar.contains(e.target)) {
+                return;
+            }
+            if (navbarToggleBar && navbarToggleBar.contains(e.target)) {
+                return;
+            }
+            closeNavbar();
         });
 
         var close = document.getElementById('close-icon');
         close.addEventListener('click', function() {
-            var navbar = document.getElementsByClassName('navbar')[0];
-            navbar.style.left = '-28rem';
+            closeNavbar();
         });
+
+        var tabPanels = document.querySelectorAll('.tab-panel');
+        var navLinks = document.querySelectorAll('.navbar-link');
+        var tabTriggers = document.querySelectorAll('.tab-trigger');
+
+        function activateTab(tabId) {
+            var panelExists = document.querySelector('.tab-panel#' + tabId);
+            if (!panelExists) {
+                tabId = 'about';
+            }
+
+            tabPanels.forEach(function(panel) {
+                panel.style.display = panel.id === tabId ? '' : 'none';
+            });
+
+            navLinks.forEach(function(link) {
+                if (link.getAttribute('href') === '#' + tabId) {
+                    link.classList.add('navbar-link-active');
+                } else {
+                    link.classList.remove('navbar-link-active');
+                }
+            });
+        }
+
+        navLinks.forEach(function(link) {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                var tabId = link.getAttribute('href').replace('#', '');
+                activateTab(tabId);
+                if (isMobileNavLayout()) {
+                    closeNavbar();
+                }
+            });
+        });
+
+        tabTriggers.forEach(function(trigger) {
+            trigger.addEventListener('click', function(e) {
+                e.preventDefault();
+                var tabId = trigger.getAttribute('href').replace('#', '');
+                activateTab(tabId);
+            });
+        });
+
+        var defaultTab = 'about';
+        if (window.location.hash) {
+            defaultTab = window.location.hash.replace('#', '');
+        }
+        activateTab(defaultTab);
     </script>
     
 </body>
