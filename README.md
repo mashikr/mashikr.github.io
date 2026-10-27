@@ -2,7 +2,7 @@
 
 Static personal portfolio site: full-stack software engineering profile, projects, academic background (education, publications, honors), downloadable CVs, and contact links.
 
-**Live preview:** [mashikr.github.io](https://mashikr.github.io)
+**Live preview:** [mdashikur567.github.io](https://mdashikur567.github.io)
 
 ## Features
 
@@ -38,7 +38,7 @@ Static personal portfolio site: full-stack software engineering profile, project
 ## Setup
 
 ```bash
-git clone https://github.com/mashikr/grid-with-sass-website.git
+git clone https://github.com/mdashikur567/grid-with-sass-website.git
 cd grid-with-sass-website
 npm ci
 ```
